@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>موقع محاضرات العاشر</title>
+    <meta name="keywords" content=" ،،،،،،،،،،،،،،،،،،،،،،محاضرات ،امتحانات ،حوسبة سحابية،تقنيات الانترنت 2،نظم خبيرة 	جامعة دنقلا">
+</head>
+<body>
+    <div class="container">
+        <div class="quick-access">
+            <button id="quick-access-btn" class="attractive-button">المواد</button>
+            <div id="quick-access-menu" style="display:none;">
+                <button onclick="scrollToMenu(1)">حوسبة سحابية</button>
+                <button onclick="scrollToMenu(2)">تقنيات الانترنت 2</button>
+                <button onclick="scrollToMenu(3)">نظم خبيرة</button>
+   
+            </div>
+        </div>
+        <h2>مرحباً بگ في موقع تحميل محاضرات السمستر العاشر</h2>
+        <!-- إضافة رسالة ترحيبية -->
+        <!--<div id="welcome-message">مرحبا بك</div>-->
+        <div id="fileList"></div>
+        <div class="menu-container">
+            <ul id="menu1">
+                <li style="background-color: lavender;">محاضرات حوسبة سحابية
+                    <ul>
+                        <li><a download="حوسبه1" href="uploads\Lec7.pdf">حوسبة1</a></li>
+                        <li><a download="حوسبة 2" href="uploads\byaat2.pptx">حوسبه2</a></li>
+                    </ul>
+                </li>
+              
+            </ul>
+            
+          <div class="media-section">
+          <h3>فيديو تعليمي</h3>
+          <video controls width="600">
+          <source src="uploads/عملة.mp4" type="video/mp4">
+          متصفحك لا يدعم عرض الفيديو.
+          </video>
+          
+          <h3>تسجيل صوتي</h3>
+          <audio controls>
+          <source src="uploads/جافا.m4a" type="audio/mp4">
+          متصفحك لا يدعم تشغيل الصوت.
+          </audio>
+          </div>
+          
+          <ul id="menu2">
+          <li style="background-color:lightgray">
+          <a href="index.html" download>تحميل الملف</a>
+          </li>
+          </ul>
+ 
+            <ul id="menu2">
+                <li style="background-color: lightskyblue;">محاضرات تقنيات الانترنت 2
+                    <ul>
+                        <li><a download="تقنيات الانترنت1" href="uploads\lec1.pdf">تقنيات الانترنت2</a></li>
+                        <li><a download="تقنيات الانترنت2" href="uploads\LEC_3.pdf">تقنيات الانترنت2</a></li>
+                       <!-- <li><a download="تسويق7" href="uploads\tsoik7.pptx">تسويق7</a></li>
+                        <li><a download="تسويق8" href="uploads\tsoik8.pptx">تسويق8</a></li> -->
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu3">
+                <li style="background-color: palegreen;">محاضرات دوائر رقميه
+                    <ul>
+                        <li><a download="دوائر1" href="uploads\doair1.pdf">دوائر1</a></li>
+                        <li><a download="دوائر2" href="uploads\doair2.pdf">دوائر2</a></li>
+                        <li><a download="دوائر3" href="uploads\doair3.pdf">دوائر3</a></li>
+                        <li><a download="دوائر4" href="uploads\doair4.pdf">دوائر4</a></li>
+                        <li><a download="دوائر5" href="uploads\doair5.pdf">دوائر5</a></li>
+                        <li><a download="دوائر6" href="uploads\doair6.pdf">دوائر6</a></li>
+                        <li><a download="دوائر7" href="uploads\doair7.pdf">دوائر7</a></li>
+                        <li><a download="دوائر8" href="uploads\doair8.pdf">دوائر8</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul id="menu4">
+            <li style="background-color: mistyrose;">محاضرات رياضيات
+            <ul>
+            <li><a download="رياضيات1" href="uploads\reyadyat1.pdf">رياضيات1</a></li>
+            <li><a download="رياضيات2" href="uploads\reyadyat2.pdf">رياضيات2</a></li>
+            <li><a download="رياضيات3" href="uploads\reyadyat3.pdf">رياضيات3</a></li>
+            <li><a download="رياضيات4" href="uploads\reyadyat4.pdf">رياضيات4</a></li>
+            <li><a download="رياضيات5" href="uploads\reyadyat5.pdf">رياضيات5</a></li>
+            <li><a download="رياضيات6" href="uploads\reyadyat6.pdf">رياضيات6</a></li>
+            <li><a download="رياضيات7" href="uploads\reyadyat7.pdf">رياضيات7</a></li>
+            <li><a download="رياضيات8" href="uploads\reyadyat8.pdf">رياضيات8</a></li>
+            <li><a download="كتاب رياضيات خارجي" href="uploads\reyadyat0.pdf">كتاب رياضيات خارجي</a></li>
+            </ul>
+            </li>
+            </ul>
+            <ul id="menu5">
+            <li style="background-color: peachpuff;">محاضرات قضايا اخلاقيه ومهنيه
+            <ul>
+            <li><a download="قضايا1" href="uploads\cadaya1.pdf">قضايا1</a></li>
+            <li><a download="قضايا2" href="uploads\cadaya2.pdf">قضايا2</a></li>
+            <li><a download="قضايا3" href="uploads\cadaya3.pdf">قضايا3</a></li>
+          <!--  <li><a download="قضايا4" href="uploads\cadaya4.pdf">قضايا4</a></li>
+            <li><a download="قضايا5" href="uploads\cadaya5.pdf">قضايا5</a></li>
+            <li><a download="قضايا6" href="uploads\cadaya6.pdf">قضايا6</a></li>
+            <li><a download="قضايا7" href="uploads\cadaya7.pdf">قضايا7</a></li>
+            <li><a download="قضايا8" href="uploads\cadaya8.pdf">قضايا8</a></li> -->
+            </ul>
+            </li>
+            </ul>
+            <ul id="menu6">
+            <li style="background-color: lightcoral;">محاضرات لغه جافا
+            <ul>
+            <li><a download="جافا1" href="uploads\java1.pptx">جافا1</a></li>
+            <li><a download="جافا2" href="uploads\java2.pptx">جافا2</a></li>
+            <li><a download="جافا3" href="uploads\java3.pptx">جافا3</a></li>
+            <li><a download="جافا4" href="uploads\java4.pptx">جافا4</a></li>
+            <li><a download="جافا5" href="uploads\java5.pptx">جافا5</a></li>
+            <li><a download="جافا6" href="uploads\java6.pptx">جافا6</a></li>
+            <li><a download="جافا7" href="uploads\java7.pptx">جافا7</a></li>
+            <li><a download="جافا8" href="uploads\java8.pptx">جافا8</a></li>
+            </ul>
+            </li>
+            </ul>
+            <ul id="menu7">
+            <li style="background-color: powderblue;">محاضرات المعمل
+            <ul>
+            <li><a download="جافامعمل1" href="uploads\Lec1.pptx">جافامعمل1</a></li>
+            <li><a download="جافامعمل2" href="uploads\Lec2.pptx">جافامعمل2</a></li>
+            <li><a download="جافامعمل3" href="uploads\Lec3.pptx">جافامعمل3</a></li>
+            <li><a download="جافامعمل4" href="uploads\Lec4.pptx">جافامعمل4</a></li>
+            <li><a download="جافامعمل5" href="uploads\Lec5.pptx">جافامعمل5</a></li>
+            <li><a download="جافامعمل6" href="uploads\Lec6.pptx">جافامعمل6</a></li>
+            <li><a download="جافامعمل7" href="uploads\Lec7.pptx">جافامعمل7</a></li>
+            <li><a download="جافامعمل8" href="uploads\Lec8.pptx">جافامعمل8</a></li>
+            </ul>
+            </li>
+            </ul>
+            <!-- إضافة زر للوضع الليلي -->
+            <button onclick="toggleNightMode()">تفعيل الوضع الليلي</button>
+            <!-- إضافة قسم التعليقات -->
+            <!--<div class="comments-section">
+            <input type="text" id="commentInput" placeholder="أدخل تعليقك هنا">
+            <button onclick="addComment()">إضافة تعليق</button>
+            <div id="commentList"></div>
+            </div>-->
+            <div>
+            <footer>
+            <p>اسم الناشر:فاكهة المحيط</p>
+            <p>الموقع: جامعة دنقلا - كلية علوم الحاسب وتقنية المعلومات</p>
+            <!-- زر للتواصل مع مالك الصفحة -->
+            <button onclick="sendEmail()">تواصل مع المالك</button>
+            </footer>
+            </div>
+            <script src="scripts.js"></script>
+            </body>
+            </html>""
